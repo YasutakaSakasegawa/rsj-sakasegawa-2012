@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sat Nov 17 20:05:55 JST 2012
+markTmpDer=true
+builderNum=4
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=rsj-sakasegawa-2012.tex
+outputFile=rsj-sakasegawa-2012.pdf
+langSpell=en
+markDer=true
+srcDir=

@@ -1,0 +1,89 @@
+﻿%%% 論文（A）と一般記事用（B）のテンプレート
+%%%   必要に応じてどちらかを使ってください．
+
+%%% A. 論文
+\documentclass[paper]{jrsj}
+\usepackage{graphicx}
+
+%% 頁（指定する必要なし）
+%\setcounter{page}{1}
+%% 通巻頁（指定する必要なし）
+%\volpage{101}
+
+%% 論文の種類を記入（学術・技術論文 / 学術論文 / 討論など）
+\typeofpaper{学術・技術論文}
+%% 発行年（コメントアウトしておく）
+%\Year{2000}
+%% 巻数（コメントアウトしておく）
+%\Vol{18}
+%% 号数（コメントアウトしておく）
+%\No{1}
+%% 邦文題名
+\title{
+VNUとの国際プロジェクトを通したロボット開発の国際教育プロジェクトへの
+アジャイル開発方法論スクラムの適用とマネジメント（仮）
+}
+%% 邦文副題名（ある場合のみ）
+\subtitle{}
+%% 英文題名
+\etitle{English Title}
+%% 英文副題名（ある場合のみ）
+\esubtitle{}
+%% 著者のリスト
+\authorlist{%
+ \authorentry{酒瀬川 泰孝}{Yasutaka Yasutaka}{AIIT}
+ \authorentry{川木 富美子}{Tomiko Kawaki}{AIIT}
+ \authorentry{須澤 秀人}{Hideto Suzawa}{AIIT}
+ \authorentry{木崎 悟}{Satoru Kizaki}{AIIT}
+ \authorentry{土屋 陽介}{Yosuke Tsuchiya}{AIIT}
+ \authorentry{中鉢 欣秀}{Yoshihide Chubachi}{AIIT}
+}
+%% 著者の所属
+\affiliate[AIIT]{産業技術大学院大学}{Advanced Institute of Industrial Technology}
+
+%% 原稿受付日（記述しない，空欄に）
+\received{}
+
+\begin{document}
+%% 英文要旨
+\begin{abstract}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet nibh odio. Nam non bibendum velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut sagittis elit ac sapien pulvinar pellentesque fermentum arcu aliquam. Integer sollicitudin lorem ac nulla mattis vehicula. Suspendisse sed mauris magna, a sagittis neque. Praesent egestas purus eu erat adipiscing in porta enim auctor. Vestibulum egestas neque in orci congue gravida. Pellentesque porttitor magna ac magna ornare pretium. Ut vestibulum sapien ut sem rutrum et suscipit velit consequat. Ut cursus libero et nisi faucibus pretium luctus erat sodales. Morbi lacus.
+\end{abstract}
+%% 英文キーワード
+\begin{keywords}
+Lorem ipsum dolor sit amet
+\end{keywords}
+\maketitle
+\small
+%% 本文
+\section{はじめに}
+本文
+
+\section{おわりに}
+
+\newpage %% !!!あとで削除!!!
+%% 謝辞（ある場合のみ）
+\begin{acknowledgements}
+みんなありがとう！
+\end{acknowledgements}
+
+%% 文献
+\begin{thebibliography}{99}
+\bibitem{}
+\end{thebibliography}
+
+%% 付録（ある場合のみ）
+\appendix 
+
+%% 著者紹介（総合論文，学術・技術論文，解説論文のみ）
+\begin{biography}
+\profile{n}{酒瀬川 泰孝（Yasutaka Yasutaka））}{紹介文}
+\profile{n}{川木 富美子（Tomiko Kawaki）}{紹介文}
+\profile{n}{須澤 秀人（Hideto Suzawa）}{紹介文}
+\profile{n}{木崎 悟（Hideto Suzawa）}{紹介文}
+\profile{m}{土屋 陽介（Yosuke Tsuchiya）}{紹介文}
+\profile{n}{中鉢 欣秀（Yoshihide Chubachi）}{情報処理学会．電子情報通信学会．日本マーケティング学会}
+\end{biography}
+
+\end{document}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
